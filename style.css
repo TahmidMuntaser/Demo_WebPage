@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: lightblue; 
+    background-image:linear-gradient(
+        rgba(32, 86, 186, 0.682),
+        rgba(143, 65, 19, 0.309)
+    ),url("download\ \(2\).jfif");
+    background-size: cover ;
+    background-position: center;
+   
+}
+
+
+.navbar{
+   height: 10%;
+  
+   display: flex;
+
+}
+
+.nav-left{
+    flex-basis: 30%;
+    background: white;
+}
+
+.nav-right{
+    flex-basis: 70%;
+}
+
+.content{
+    height: 90%;
+  
+    display: flex;
+}
+ 
+
+.content-left{
+    flex-basis: 30%;
+    background-color: white;
+
+}
+
+.content-right{
+    flex-basis: 70%;
+}
+
