@@ -29,6 +29,27 @@ header{
 .nav-left{
     flex-basis: 30%;
     background: white;
+    position: relative;
+     
+}
+
+.nav-icon{
+    left: 5%;
+    top: 10%;
+    position: absolute;
+}
+
+
+.nav-icon ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+ 
+
+.nav-icon ul li i{
+
+    color: grey;
+
 }
 
 .nav-right{
