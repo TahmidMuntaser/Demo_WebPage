@@ -54,6 +54,12 @@ header{
 
 }
 
+.nav-icon ul li i:hover{
+    color: red;
+    transform: scale(1.3);
+    transition: all 1s;
+}
+
 .nav-right{
     flex-basis: 70%;
     position: relative;
@@ -143,14 +149,16 @@ header{
 
 .text{
     position: absolute;
-
-    bottom: 9%;
+    bottom: 5%;
     right: 5%;
+    padding-left: 30%;
 
 }
+
+
 .display{
     position: absolute;
-    bottom: 5%;
+    bottom: 25%;
     left: -30%;
 
 }
