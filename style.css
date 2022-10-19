@@ -95,7 +95,11 @@ header{
     color: red;
     cursor: pointer;
    
-   
+}
+
+.logo:hover{
+    transform: scale(1.1);
+    transition: all 2s;
 }
 
 
